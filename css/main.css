@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+.header{
+   
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 10px;
+    margin: 100px 10%;
+    font-size:  40px;
+    width: 70%;
+    height: 500px;
+    margin: 70px 15%;
+    border: 1px solid black;
+}
+.box1{
+  padding:10px 0 10px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr 2fr 1fr;
+    gap: 10px;
+    
+}
+.quti1{
+    background-color: aquamarine;
+    
+}
+.quti2{
+    background-color: aquamarine;
+}
+.quti3{
+    background-color: aquamarine;
+    grid-row: 2 / 4;
+}
+.quti4{
+    background-color: aquamarine;
+}
+.quti5{
+    background-color: aquamarine;
+}
+
+
+.box2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 3fr 1fr;
+    gap: 10px;
+    padding:10px 10px 10px 0;
+}
+.box2 div{
+    background-color: aquamarine;
+}
+.quti_1{
+  grid-row: 1 / 3;
+}
+.quti_2{
+    grid-column: 2 / 4;
+}
+.quti_3{
+    grid-row: 2 / 3;
+}
+.quti_4{
+    grid-column: 1 / 3;
+}
+.quti_5{
+    grid-row: 2 / 4;
+}
+
+
+
+
+
+
